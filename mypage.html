@@ -1,0 +1,975 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+	
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<title></title>
+	<meta name="generator" content="LibreOffice 6.3.5.2 (Linux)"/>
+	<meta name="created" content="2020-06-18T04:15:44"/>
+	<meta name="changed" content="2020-06-18T20:41:56.731942009"/>
+	<meta name="AppVersion" content="12.0000"/>
+	<meta name="DocSecurity" content="0"/>
+	<meta name="HyperlinksChanged" content="false"/>
+	<meta name="LinksUpToDate" content="false"/>
+	<meta name="ScaleCrop" content="false"/>
+	<meta name="ShareDoc" content="false"/>
+	
+	<style type="text/css">
+		body,div,table,thead,tbody,tfoot,tr,th,td,p { font-family:"Calibri"; font-size:x-small }
+		a.comment-indicator:hover + comment { background:#ffd; position:absolute; display:block; border:1px solid black; padding:0.5em;  } 
+		a.comment-indicator { background:red; display:inline-block; border:1px solid black; width:0.5em; height:0.5em;  } 
+		comment { display:none;  } 
+	</style>
+	
+</head>
+
+<body>
+	<colgroup width="112"></colgroup>
+	<colgroup span="2" width="80"></colgroup>
+	<colgroup span="2" width="107"></colgroup>
+	<colgroup width="112"></colgroup>
+	<colgroup width="101"></colgroup>
+	<colgroup width="96"></colgroup>
+	<colgroup span="2" width="80"></colgroup>
+<table>
+	<tr>
+		<td height="23" align="left" valign=bottom><font color="#000000"><br></font></td>
+		<td colspan=8 align="center" valign=bottom sdnum="1033;0;0"><b><font size=4 color="#000000">Coronavirus Outliers by Country (as of June 1, 2020)</font></b></td>
+		<td align="left" valign=bottom sdnum="1033;0;0.0"><font color="#000000"><br></font></td>
+	</tr>
+	<tr>
+		<td height="18" align="left" valign=bottom><font color="#000000"><br></font></td>
+		<td align="left" valign=bottom sdnum="1033;0;0"><font color="#000000"><br></font></td>
+		<td align="left" valign=bottom sdnum="1033;0;0"><font color="#000000"><br></font></td>
+		<td align="left" valign=bottom sdnum="1033;0;0"><font color="#000000"><br></font></td>
+		<td align="left" valign=bottom sdnum="1033;0;0"><font color="#000000"><br></font></td>
+		<td align="left" valign=bottom sdnum="1033;0;0"><font color="#000000"><br></font></td>
+		<td align="left" valign=bottom sdnum="1033;0;0"><font color="#000000"><br></font></td>
+		<td align="left" valign=bottom sdnum="1033;0;0"><font color="#000000"><br></font></td>
+		<td align="left" valign=bottom sdnum="1033;0;0"><font color="#000000"><br></font></td>
+		<td align="left" valign=bottom sdnum="1033;0;0.0"><font color="#000000"><br></font></td>
+	</tr>
+</table>
+<table>
+	<tr>
+		<td height="23" align="center" valign=bottom><b><font size=4 color="#000000"><br></font></b></td>
+		<td colspan=9 align="center" valign=bottom sdnum="1033;0;0"><b><font size=4 color="#000000">Outliers in Total Cases*</font></b></td>
+		</tr>
+</table>
+  
+<table id="tblCases" cellspacing="0" border="0">
+<thead>
+	<tr>
+		<th style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="18" align="center" valign=top><b><font color="#000000">Country</font></b></th>
+		<th style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=top sdnum="1033;0;0"><b><font color="#000000">Cases</font></b></th>
+		<th style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=top sdnum="1033;0;0"><b><font color="#000000">Deaths</font></b></th>
+		<th style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=top sdnum="1033;0;0"><b><font color="#000000">Cases per Million</font></b></th>
+		<th style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=top sdnum="1033;0;0"><b><font color="#000000">Deaths per Million</font></b></th>
+		<th style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=top sdnum="1033;0;0"><b><font color="#000000">population</font></b></th>
+		<th style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=top sdnum="1033;0;0"><b><font color="#000000">population_density</font></b></th>
+		<th style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=top sdnum="1033;0;0"><b><font color="#000000">median_age</font></b></th>
+		<th style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=top sdnum="1033;0;0"><b><font color="#000000">gdp_per_capita</font></b></th>
+		<th style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=top sdnum="1033;0;0.0"><b><font color="#000000">hospital_beds_per_100k</font></b></th>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="18" align="left" valign=bottom><font color="#000000">Bangladesh</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="47153" sdnum="1033;0;0"><font color="#000000">47153</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="650" sdnum="1033;0;0"><font color="#000000">650</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="286.315" sdnum="1033;0;0"><font color="#000000">286</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="3.947" sdnum="1033;0;0"><font color="#000000">4</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="164689383" sdnum="1033;0;0"><font color="#000000">164689383</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="1265.036" sdnum="1033;0;0"><font color="#000000">1265</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="27.5" sdnum="1033;0;0"><font color="#000000">28</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="3523.984" sdnum="1033;0;0"><font color="#000000">3524</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="0.8" sdnum="1033;0;0.0"><font color="#000000">0.8</font></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="18" align="left" valign=bottom><font color="#000000">Belarus</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="42556" sdnum="1033;0;0"><font color="#000000">42556</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="235" sdnum="1033;0;0"><font color="#000000">235</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="4503.604" sdnum="1033;0;0"><font color="#000000">4504</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="24.87" sdnum="1033;0;0"><font color="#000000">25</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="9449321" sdnum="1033;0;0"><font color="#000000">9449321</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="46.858" sdnum="1033;0;0"><font color="#000000">47</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="40.3" sdnum="1033;0;0"><font color="#000000">40</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="17167.967" sdnum="1033;0;0"><font color="#000000">17168</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="11" sdnum="1033;0;0.0"><font color="#000000">11.0</font></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="18" align="left" valign=bottom><font color="#000000">Belgium</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="58381" sdnum="1033;0;0"><font color="#000000">58381</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="9467" sdnum="1033;0;0"><font color="#000000">9467</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="5037.354" sdnum="1033;0;0"><font color="#000000">5037</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="816.852" sdnum="1033;0;0"><font color="#000000">817</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="11589616" sdnum="1033;0;0"><font color="#000000">11589616</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="375.564" sdnum="1033;0;0"><font color="#000000">376</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="41.8" sdnum="1033;0;0"><font color="#000000">42</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="42658.576" sdnum="1033;0;0"><font color="#000000">42659</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="5.64" sdnum="1033;0;0.0"><font color="#000000">5.6</font></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="18" align="left" valign=bottom><font color="#000000">Brazil</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="514849" sdnum="1033;0;0"><font color="#000000">514849</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="29314" sdnum="1033;0;0"><font color="#000000">29314</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="2422.142" sdnum="1033;0;0"><font color="#000000">2422</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="137.91" sdnum="1033;0;0"><font color="#000000">138</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="212559409" sdnum="1033;0;0"><font color="#000000">212559409</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="25.04" sdnum="1033;0;0"><font color="#000000">25</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="33.5" sdnum="1033;0;0"><font color="#000000">34</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="14103.452" sdnum="1033;0;0"><font color="#000000">14103</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="2.2" sdnum="1033;0;0.0"><font color="#000000">2.2</font></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="18" align="left" valign=bottom><font color="#000000">Canada</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="90936" sdnum="1033;0;0"><font color="#000000">90936</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="7295" sdnum="1033;0;0"><font color="#000000">7295</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="2409.401" sdnum="1033;0;0"><font color="#000000">2409</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="193.285" sdnum="1033;0;0"><font color="#000000">193</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="37742157" sdnum="1033;0;0"><font color="#000000">37742157</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="4.037" sdnum="1033;0;0"><font color="#000000">4</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="41.4" sdnum="1033;0;0"><font color="#000000">41</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="44017.591" sdnum="1033;0;0"><font color="#000000">44018</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="2.5" sdnum="1033;0;0.0"><font color="#000000">2.5</font></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="18" align="left" valign=bottom><font color="#000000">Chile</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="99688" sdnum="1033;0;0"><font color="#000000">99688</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="1054" sdnum="1033;0;0"><font color="#000000">1054</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="5214.841" sdnum="1033;0;0"><font color="#000000">5215</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="55.136" sdnum="1033;0;0"><font color="#000000">55</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="19116209" sdnum="1033;0;0"><font color="#000000">19116209</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="24.282" sdnum="1033;0;0"><font color="#000000">24</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="35.4" sdnum="1033;0;0"><font color="#000000">35</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="22767.037" sdnum="1033;0;0"><font color="#000000">22767</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="2.11" sdnum="1033;0;0.0"><font color="#000000">2.1</font></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="18" align="left" valign=bottom><font color="#000000">China</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="84147" sdnum="1033;0;0"><font color="#000000">84147</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="4638" sdnum="1033;0;0"><font color="#000000">4638</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="58.463" sdnum="1033;0;0"><font color="#000000">58</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="3.222" sdnum="1033;0;0"><font color="#000000">3</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="1439323774" sdnum="1033;0;0"><font color="#000000">1439323774</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="147.674" sdnum="1033;0;0"><font color="#000000">148</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="38.7" sdnum="1033;0;0"><font color="#000000">39</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="15308.712" sdnum="1033;0;0"><font color="#000000">15309</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="4.34" sdnum="1033;0;0.0"><font color="#000000">4.3</font></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="18" align="left" valign=bottom><font color="#000000">Colombia</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="29383" sdnum="1033;0;0"><font color="#000000">29383</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="939" sdnum="1033;0;0"><font color="#000000">939</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="577.463" sdnum="1033;0;0"><font color="#000000">577</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="18.454" sdnum="1033;0;0"><font color="#000000">18</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="50882884" sdnum="1033;0;0"><font color="#000000">50882884</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="44.223" sdnum="1033;0;0"><font color="#000000">44</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="32.2" sdnum="1033;0;0"><font color="#000000">32</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="13254.949" sdnum="1033;0;0"><font color="#000000">13255</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="1.71" sdnum="1033;0;0.0"><font color="#000000">1.7</font></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="18" align="left" valign=bottom><font color="#000000">Ecuador</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="39098" sdnum="1033;0;0"><font color="#000000">39098</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="3358" sdnum="1033;0;0"><font color="#000000">3358</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="2216.055" sdnum="1033;0;0"><font color="#000000">2216</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="190.33" sdnum="1033;0;0"><font color="#000000">190</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="17643060" sdnum="1033;0;0"><font color="#000000">17643060</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="66.939" sdnum="1033;0;0"><font color="#000000">67</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="28.1" sdnum="1033;0;0"><font color="#000000">28</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="10581.936" sdnum="1033;0;0"><font color="#000000">10582</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="1.5" sdnum="1033;0;0.0"><font color="#000000">1.5</font></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="18" align="left" valign=bottom><font color="#000000">France</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="151753" sdnum="1033;0;0"><font color="#000000">151753</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="28802" sdnum="1033;0;0"><font color="#000000">28802</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="2324.879" sdnum="1033;0;0"><font color="#000000">2325</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="441.251" sdnum="1033;0;0"><font color="#000000">441</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="65273512" sdnum="1033;0;0"><font color="#000000">65273512</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="122.578" sdnum="1033;0;0"><font color="#000000">123</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="42" sdnum="1033;0;0"><font color="#000000">42</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="38605.671" sdnum="1033;0;0"><font color="#000000">38606</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="5.98" sdnum="1033;0;0.0"><font color="#000000">6.0</font></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="18" align="left" valign=bottom><font color="#000000">Germany</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="181815" sdnum="1033;0;0"><font color="#000000">181815</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="8511" sdnum="1033;0;0"><font color="#000000">8511</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="2170.046" sdnum="1033;0;0"><font color="#000000">2170</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="101.583" sdnum="1033;0;0"><font color="#000000">102</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="83783945" sdnum="1033;0;0"><font color="#000000">83783945</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="237.016" sdnum="1033;0;0"><font color="#000000">237</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="46.6" sdnum="1033;0;0"><font color="#000000">47</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="45229.245" sdnum="1033;0;0"><font color="#000000">45229</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="8" sdnum="1033;0;0.0"><font color="#000000">8.0</font></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="18" align="left" valign=bottom><font color="#000000">India</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="190535" sdnum="1033;0;0"><font color="#000000">190535</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="5394" sdnum="1033;0;0"><font color="#000000">5394</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="138.068" sdnum="1033;0;0"><font color="#000000">138</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="3.909" sdnum="1033;0;0"><font color="#000000">4</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="1380004385" sdnum="1033;0;0"><font color="#000000">1380004385</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="450.419" sdnum="1033;0;0"><font color="#000000">450</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="28.2" sdnum="1033;0;0"><font color="#000000">28</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="6426.674" sdnum="1033;0;0"><font color="#000000">6427</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="0.53" sdnum="1033;0;0.0"><font color="#000000">0.5</font></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="18" align="left" valign=bottom><font color="#000000">Indonesia</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="26473" sdnum="1033;0;0"><font color="#000000">26473</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="1613" sdnum="1033;0;0"><font color="#000000">1613</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="96.785" sdnum="1033;0;0"><font color="#000000">97</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="5.897" sdnum="1033;0;0"><font color="#000000">6</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="273523621" sdnum="1033;0;0"><font color="#000000">273523621</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="145.725" sdnum="1033;0;0"><font color="#000000">146</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="29.3" sdnum="1033;0;0"><font color="#000000">29</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="11188.744" sdnum="1033;0;0"><font color="#000000">11189</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="1.04" sdnum="1033;0;0.0"><font color="#000000">1.0</font></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="18" align="left" valign=bottom><font color="#000000">Iran</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="151466" sdnum="1033;0;0"><font color="#000000">151466</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="7797" sdnum="1033;0;0"><font color="#000000">7797</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="1803.318" sdnum="1033;0;0"><font color="#000000">1803</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="92.829" sdnum="1033;0;0"><font color="#000000">93</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="83992953" sdnum="1033;0;0"><font color="#000000">83992953</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="49.831" sdnum="1033;0;0"><font color="#000000">50</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="32.4" sdnum="1033;0;0"><font color="#000000">32</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="19082.62" sdnum="1033;0;0"><font color="#000000">19083</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="1.5" sdnum="1033;0;0.0"><font color="#000000">1.5</font></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="18" align="left" valign=bottom><font color="#000000">Italy</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="233019" sdnum="1033;0;0"><font color="#000000">233019</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="33415" sdnum="1033;0;0"><font color="#000000">33415</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="3853.985" sdnum="1033;0;0"><font color="#000000">3854</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="552.663" sdnum="1033;0;0"><font color="#000000">553</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="60461828" sdnum="1033;0;0"><font color="#000000">60461828</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="205.859" sdnum="1033;0;0"><font color="#000000">206</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="47.9" sdnum="1033;0;0"><font color="#000000">48</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="35220.084" sdnum="1033;0;0"><font color="#000000">35220</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="3.18" sdnum="1033;0;0.0"><font color="#000000">3.2</font></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="18" align="left" valign=bottom><font color="#000000">Kuwait</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="27043" sdnum="1033;0;0"><font color="#000000">27043</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="212" sdnum="1033;0;0"><font color="#000000">212</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="6332.42" sdnum="1033;0;0"><font color="#000000">6332</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="49.642" sdnum="1033;0;0"><font color="#000000">50</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="4270563" sdnum="1033;0;0"><font color="#000000">4270563</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="232.128" sdnum="1033;0;0"><font color="#000000">232</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="33.7" sdnum="1033;0;0"><font color="#000000">34</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="65530.537" sdnum="1033;0;0"><font color="#000000">65531</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="2" sdnum="1033;0;0.0"><font color="#000000">2.0</font></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="18" align="left" valign=bottom><font color="#000000">Mexico</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="90664" sdnum="1033;0;0"><font color="#000000">90664</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="9930" sdnum="1033;0;0"><font color="#000000">9930</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="703.188" sdnum="1033;0;0"><font color="#000000">703</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="77.017" sdnum="1033;0;0"><font color="#000000">77</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="128932753" sdnum="1033;0;0"><font color="#000000">128932753</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="66.444" sdnum="1033;0;0"><font color="#000000">66</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="29.3" sdnum="1033;0;0"><font color="#000000">29</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="17336.469" sdnum="1033;0;0"><font color="#000000">17336</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="1.38" sdnum="1033;0;0.0"><font color="#000000">1.4</font></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="18" align="left" valign=bottom><font color="#000000">Netherlands</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="46442" sdnum="1033;0;0"><font color="#000000">46442</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="5956" sdnum="1033;0;0"><font color="#000000">5956</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="2710.379" sdnum="1033;0;0"><font color="#000000">2710</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="347.595" sdnum="1033;0;0"><font color="#000000">348</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="17134873" sdnum="1033;0;0"><font color="#000000">17134873</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="508.544" sdnum="1033;0;0"><font color="#000000">509</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="43.2" sdnum="1033;0;0"><font color="#000000">43</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="48472.545" sdnum="1033;0;0"><font color="#000000">48473</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="3.32" sdnum="1033;0;0.0"><font color="#000000">3.3</font></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="18" align="left" valign=bottom><font color="#000000">Pakistan</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="72460" sdnum="1033;0;0"><font color="#000000">72460</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="1543" sdnum="1033;0;0"><font color="#000000">1543</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="328.033" sdnum="1033;0;0"><font color="#000000">328</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="6.985" sdnum="1033;0;0"><font color="#000000">7</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="220892331" sdnum="1033;0;0"><font color="#000000">220892331</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="255.573" sdnum="1033;0;0"><font color="#000000">256</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="23.5" sdnum="1033;0;0"><font color="#000000">24</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="5034.708" sdnum="1033;0;0"><font color="#000000">5035</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="0.6" sdnum="1033;0;0.0"><font color="#000000">0.6</font></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="18" align="left" valign=bottom><font color="#000000">Peru</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="164476" sdnum="1033;0;0"><font color="#000000">164476</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="4506" sdnum="1033;0;0"><font color="#000000">4506</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="4988.377" sdnum="1033;0;0"><font color="#000000">4988</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="136.662" sdnum="1033;0;0"><font color="#000000">137</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="32971846" sdnum="1033;0;0"><font color="#000000">32971846</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="25.129" sdnum="1033;0;0"><font color="#000000">25</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="29.1" sdnum="1033;0;0"><font color="#000000">29</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="12236.706" sdnum="1033;0;0"><font color="#000000">12237</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="1.6" sdnum="1033;0;0.0"><font color="#000000">1.6</font></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="18" align="left" valign=bottom><font color="#000000">Portugal</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="32500" sdnum="1033;0;0"><font color="#000000">32500</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="1410" sdnum="1033;0;0"><font color="#000000">1410</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="3187.304" sdnum="1033;0;0"><font color="#000000">3187</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="138.28" sdnum="1033;0;0"><font color="#000000">138</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="10196707" sdnum="1033;0;0"><font color="#000000">10196707</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="112.371" sdnum="1033;0;0"><font color="#000000">112</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="46.2" sdnum="1033;0;0"><font color="#000000">46</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="27936.896" sdnum="1033;0;0"><font color="#000000">27937</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="3.39" sdnum="1033;0;0.0"><font color="#000000">3.4</font></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="18" align="left" valign=bottom><font color="#000000">Qatar</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="56910" sdnum="1033;0;0"><font color="#000000">56910</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="38" sdnum="1033;0;0"><font color="#000000">38</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="19753.146" sdnum="1033;0;0"><font color="#000000">19753</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="13.19" sdnum="1033;0;0"><font color="#000000">13</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="2881060" sdnum="1033;0;0"><font color="#000000">2881060</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="227.322" sdnum="1033;0;0"><font color="#000000">227</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="31.9" sdnum="1033;0;0"><font color="#000000">32</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="116935.6" sdnum="1033;0;0"><font color="#000000">116936</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="1.2" sdnum="1033;0;0.0"><font color="#000000">1.2</font></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="18" align="left" valign=bottom><font color="#000000">Russia</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="405843" sdnum="1033;0;0"><font color="#000000">405843</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="4693" sdnum="1033;0;0"><font color="#000000">4693</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="2780.995" sdnum="1033;0;0"><font color="#000000">2781</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="32.158" sdnum="1033;0;0"><font color="#000000">32</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="145934460" sdnum="1033;0;0"><font color="#000000">145934460</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="8.823" sdnum="1033;0;0"><font color="#000000">9</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="39.6" sdnum="1033;0;0"><font color="#000000">40</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="24765.954" sdnum="1033;0;0"><font color="#000000">24766</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="8.05" sdnum="1033;0;0.0"><font color="#000000">8.1</font></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="18" align="left" valign=bottom><font color="#000000">Saudi Arabia</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="85261" sdnum="1033;0;0"><font color="#000000">85261</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="503" sdnum="1033;0;0"><font color="#000000">503</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="2449.053" sdnum="1033;0;0"><font color="#000000">2449</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="14.448" sdnum="1033;0;0"><font color="#000000">14</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="34813867" sdnum="1033;0;0"><font color="#000000">34813867</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="15.322" sdnum="1033;0;0"><font color="#000000">15</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="31.9" sdnum="1033;0;0"><font color="#000000">32</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="49045.411" sdnum="1033;0;0"><font color="#000000">49045</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="2.7" sdnum="1033;0;0.0"><font color="#000000">2.7</font></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="18" align="left" valign=bottom><font color="#000000">Singapore</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="34884" sdnum="1033;0;0"><font color="#000000">34884</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="23" sdnum="1033;0;0"><font color="#000000">23</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="5962.727" sdnum="1033;0;0"><font color="#000000">5963</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="3.931" sdnum="1033;0;0"><font color="#000000">4</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="5850343" sdnum="1033;0;0"><font color="#000000">5850343</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="7915.731" sdnum="1033;0;0"><font color="#000000">7916</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="42.4" sdnum="1033;0;0"><font color="#000000">42</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="85535.383" sdnum="1033;0;0"><font color="#000000">85535</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="2.4" sdnum="1033;0;0.0"><font color="#000000">2.4</font></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="18" align="left" valign=bottom><font color="#000000">South Africa</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="32683" sdnum="1033;0;0"><font color="#000000">32683</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="683" sdnum="1033;0;0"><font color="#000000">683</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="551.066" sdnum="1033;0;0"><font color="#000000">551</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="11.516" sdnum="1033;0;0"><font color="#000000">12</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="59308690" sdnum="1033;0;0"><font color="#000000">59308690</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="46.754" sdnum="1033;0;0"><font color="#000000">47</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="27.3" sdnum="1033;0;0"><font color="#000000">27</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="12294.876" sdnum="1033;0;0"><font color="#000000">12295</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="2.32" sdnum="1033;0;0.0"><font color="#000000">2.3</font></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="18" align="left" valign=bottom><font color="#000000">Spain</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="239429" sdnum="1033;0;0"><font color="#000000">239429</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="27127" sdnum="1033;0;0"><font color="#000000">27127</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="5120.952" sdnum="1033;0;0"><font color="#000000">5121</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="580.197" sdnum="1033;0;0"><font color="#000000">580</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="46754783" sdnum="1033;0;0"><font color="#000000">46754783</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="93.105" sdnum="1033;0;0"><font color="#000000">93</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="45.5" sdnum="1033;0;0"><font color="#000000">46</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="34272.36" sdnum="1033;0;0"><font color="#000000">34272</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="2.97" sdnum="1033;0;0.0"><font color="#000000">3.0</font></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="18" align="left" valign=bottom><font color="#000000">Sweden</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="37542" sdnum="1033;0;0"><font color="#000000">37542</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="4395" sdnum="1033;0;0"><font color="#000000">4395</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="3717.298" sdnum="1033;0;0"><font color="#000000">3717</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="435.18" sdnum="1033;0;0"><font color="#000000">435</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="10099270" sdnum="1033;0;0"><font color="#000000">10099270</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="24.718" sdnum="1033;0;0"><font color="#000000">25</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="41" sdnum="1033;0;0"><font color="#000000">41</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="46949.283" sdnum="1033;0;0"><font color="#000000">46949</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="2.22" sdnum="1033;0;0.0"><font color="#000000">2.2</font></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="18" align="left" valign=bottom><font color="#000000">Switzerland</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="30779" sdnum="1033;0;0"><font color="#000000">30779</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="1656" sdnum="1033;0;0"><font color="#000000">1656</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="3556.367" sdnum="1033;0;0"><font color="#000000">3556</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="191.343" sdnum="1033;0;0"><font color="#000000">191</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="8654618" sdnum="1033;0;0"><font color="#000000">8654618</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="214.243" sdnum="1033;0;0"><font color="#000000">214</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="43.1" sdnum="1033;0;0"><font color="#000000">43</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="57410.166" sdnum="1033;0;0"><font color="#000000">57410</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="4.53" sdnum="1033;0;0.0"><font color="#000000">4.5</font></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="18" align="left" valign=bottom><font color="#000000">Turkey</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="163942" sdnum="1033;0;0"><font color="#000000">163942</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="4540" sdnum="1033;0;0"><font color="#000000">4540</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="1943.844" sdnum="1033;0;0"><font color="#000000">1944</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="53.83" sdnum="1033;0;0"><font color="#000000">54</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="84339067" sdnum="1033;0;0"><font color="#000000">84339067</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="104.914" sdnum="1033;0;0"><font color="#000000">105</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="31.6" sdnum="1033;0;0"><font color="#000000">32</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="25129.341" sdnum="1033;0;0"><font color="#000000">25129</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="2.81" sdnum="1033;0;0.0"><font color="#000000">2.8</font></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="18" align="left" valign=bottom><font color="#000000">United Arab Emirates</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="34557" sdnum="1033;0;0"><font color="#000000">34557</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="264" sdnum="1033;0;0"><font color="#000000">264</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="3493.994" sdnum="1033;0;0"><font color="#000000">3494</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="26.693" sdnum="1033;0;0"><font color="#000000">27</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="9890400" sdnum="1033;0;0"><font color="#000000">9890400</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="112.442" sdnum="1033;0;0"><font color="#000000">112</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="34" sdnum="1033;0;0"><font color="#000000">34</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="67293.483" sdnum="1033;0;0"><font color="#000000">67293</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="1.2" sdnum="1033;0;0.0"><font color="#000000">1.2</font></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="18" align="left" valign=bottom><font color="#000000">United Kingdom</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="274762" sdnum="1033;0;0"><font color="#000000">274762</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="38489" sdnum="1033;0;0"><font color="#000000">38489</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="4047.403" sdnum="1033;0;0"><font color="#000000">4047</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="566.965" sdnum="1033;0;0"><font color="#000000">567</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="67886004" sdnum="1033;0;0"><font color="#000000">67886004</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="272.898" sdnum="1033;0;0"><font color="#000000">273</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="40.8" sdnum="1033;0;0"><font color="#000000">41</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="39753.244" sdnum="1033;0;0"><font color="#000000">39753</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="2.54" sdnum="1033;0;0.0"><font color="#000000">2.5</font></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="18" align="left" valign=bottom><font color="#000000">United States</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="1790191" sdnum="1033;0;0"><font color="#000000">1790191</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="104383" sdnum="1033;0;0"><font color="#000000">104383</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="5408.389" sdnum="1033;0;0"><font color="#000000">5408</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="315.354" sdnum="1033;0;0"><font color="#000000">315</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="331002647" sdnum="1033;0;0"><font color="#000000">331002647</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="35.608" sdnum="1033;0;0"><font color="#000000">36</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="38.3" sdnum="1033;0;0"><font color="#000000">38</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="54225.446" sdnum="1033;0;0"><font color="#000000">54225</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="2.77" sdnum="1033;0;0.0"><font color="#000000">2.8</font></td>
+	</tr>
+	<tr>
+		<td height="18" align="left" valign=bottom><font color="#000000"><br></font></td>
+		<td align="left" valign=bottom sdnum="1033;0;0"><font color="#000000"><br></font></td>
+		<td align="left" valign=bottom sdnum="1033;0;0"><font color="#000000"><br></font></td>
+		<td align="left" valign=bottom sdnum="1033;0;0"><font color="#000000"><br></font></td>
+		<td align="left" valign=bottom sdnum="1033;0;0"><font color="#000000"><br></font></td>
+		<td align="left" valign=bottom sdnum="1033;0;0"><font color="#000000"><br></font></td>
+		<td align="left" valign=bottom sdnum="1033;0;0"><font color="#000000"><br></font></td>
+		<td align="left" valign=bottom sdnum="1033;0;0"><font color="#000000"><br></font></td>
+		<td align="left" valign=bottom sdnum="1033;0;0"><font color="#000000"><br></font></td>
+		<td align="left" valign=bottom sdnum="1033;0;0.0"><font color="#000000"><br></font></td>
+	</tr>
+	<tr>
+		<td height="18" align="left" valign=bottom><font color="#000000"><br></font></td>
+		<td align="left" valign=bottom sdnum="1033;0;0"><font color="#000000"><br></font></td>
+		<td align="left" valign=bottom sdnum="1033;0;0"><font color="#000000"><br></font></td>
+		<td align="left" valign=bottom sdnum="1033;0;0"><font color="#000000"><br></font></td>
+		<td align="left" valign=bottom sdnum="1033;0;0"><font color="#000000"><br></font></td>
+		<td align="left" valign=bottom sdnum="1033;0;0"><font color="#000000"><br></font></td>
+		<td align="left" valign=bottom sdnum="1033;0;0"><font color="#000000"><br></font></td>
+		<td align="left" valign=bottom sdnum="1033;0;0"><font color="#000000"><br></font></td>
+		<td align="left" valign=bottom sdnum="1033;0;0"><font color="#000000"><br></font></td>
+		<td align="left" valign=bottom sdnum="1033;0;0.0"><font color="#000000"><br></font></td>
+	</tr>
+	<tr>
+		<td height="18" align="left" valign=bottom><font color="#000000"><br></font></td>
+		<td align="left" valign=bottom sdnum="1033;0;0"><font color="#000000"><br></font></td>
+		<td align="left" valign=bottom sdnum="1033;0;0"><font color="#000000"><br></font></td>
+		<td align="left" valign=bottom sdnum="1033;0;0"><font color="#000000"><br></font></td>
+		<td align="left" valign=bottom sdnum="1033;0;0"><font color="#000000"><br></font></td>
+		<td align="left" valign=bottom sdnum="1033;0;0"><font color="#000000"><br></font></td>
+		<td align="left" valign=bottom sdnum="1033;0;0"><font color="#000000"><br></font></td>
+		<td align="left" valign=bottom sdnum="1033;0;0"><font color="#000000"><br></font></td>
+		<td align="left" valign=bottom sdnum="1033;0;0"><font color="#000000"><br></font></td>
+		<td align="left" valign=bottom sdnum="1033;0;0.0"><font color="#000000"><br></font></td>
+	</tr>
+</tbody>
+</table>
+<table>
+	<tr>
+		<td height="23" align="center" valign=bottom><b><font size=4 color="#000000"><br></font></b></td>
+		<td colspan=9 align="center" valign=bottom sdnum="1033;0;0"><b><font size=4 color="#000000">Outliers in Total Deaths*</font></b></td>
+		</tr>
+</table>
+<table id="tblDeaths" cellspacing="0" border="0">
+<thead>
+	<tr>
+<thead>
+	<tr>
+		<th style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="18" align="center" valign=top><b><font color="#000000">Country</font></b></th>
+		<th style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=top sdnum="1033;0;0"><b><font color="#000000">Cases</font></b></th>
+		<th style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=top sdnum="1033;0;0"><b><font color="#000000">Deaths</font></b></th>
+		<th style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=top sdnum="1033;0;0"><b><font color="#000000">Cases per Million</font></b></th>
+		<th style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=top sdnum="1033;0;0"><b><font color="#000000">Deaths per Million</font></b></th>
+		<th style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=top sdnum="1033;0;0"><b><font color="#000000">population</font></b></th>
+		<th style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=top sdnum="1033;0;0"><b><font color="#000000">population_density</font></b></th>
+		<th style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=top sdnum="1033;0;0"><b><font color="#000000">median_age</font></b></th>
+		<th style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=top sdnum="1033;0;0"><b><font color="#000000">gdp_per_capita</font></b></th>
+		<th style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=top sdnum="1033;0;0.0"><b><font color="#000000">hospital_beds_per_100k</font></b></th>
+	</tr>
+</thead>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<th style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="18" align="left" valign=bottom><font color="#000000">Algeria</font></th>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="9394" sdnum="1033;0;0"><font color="#000000">9,394</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="653" sdnum="1033;0;0"><font color="#000000">653</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="214.225" sdnum="1033;0;0"><font color="#000000">214</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="14.891" sdnum="1033;0;0"><font color="#000000">15</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="43851043" sdnum="1033;0;0"><font color="#000000">43,851,043</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="17.348" sdnum="1033;0;0"><font color="#000000">17</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="29.1" sdnum="1033;0;0"><font color="#000000">29</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="13913.839" sdnum="1033;0;0"><font color="#000000">13,914</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="1.9" sdnum="1033;0;0.0"><font color="#000000">1.9</font></td>
+	</tr>
+	<tr>
+		<th style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="18" align="left" valign=bottom><font color="#000000">Austria</font></th>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="16642" sdnum="1033;0;0"><font color="#000000">16,642</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="668" sdnum="1033;0;0"><font color="#000000">668</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="1847.797" sdnum="1033;0;0"><font color="#000000">1848</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="74.169" sdnum="1033;0;0"><font color="#000000">74</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="9006400" sdnum="1033;0;0"><font color="#000000">9,006,400</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="106.749" sdnum="1033;0;0"><font color="#000000">107</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="44.4" sdnum="1033;0;0"><font color="#000000">44</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="45436.686" sdnum="1033;0;0"><font color="#000000">45,437</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="7.37" sdnum="1033;0;0.0"><font color="#000000">7.4</font></td>
+	</tr>
+	<tr>
+		<th style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="18" align="left" valign=bottom><font color="#000000">Bangladesh</font></th>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="47153" sdnum="1033;0;0"><font color="#000000">47,153</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="650" sdnum="1033;0;0"><font color="#000000">650</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="286.315" sdnum="1033;0;0"><font color="#000000">286</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="3.947" sdnum="1033;0;0"><font color="#000000">4</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="164689383" sdnum="1033;0;0"><font color="#000000">164,689,383</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="1265.036" sdnum="1033;0;0"><font color="#000000">1265</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="27.5" sdnum="1033;0;0"><font color="#000000">28</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="3523.984" sdnum="1033;0;0"><font color="#000000">3,524</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="0.8" sdnum="1033;0;0.0"><font color="#000000">0.8</font></td>
+	</tr>
+	<tr>
+		<th style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="18" align="left" valign=bottom><font color="#000000">Belgium</font></th>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="58381" sdnum="1033;0;0"><font color="#000000">58,381</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="9467" sdnum="1033;0;0"><font color="#000000">9467</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="5037.354" sdnum="1033;0;0"><font color="#000000">5037</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="816.852" sdnum="1033;0;0"><font color="#000000">817</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="11589616" sdnum="1033;0;0"><font color="#000000">11,589,616</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="375.564" sdnum="1033;0;0"><font color="#000000">376</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="41.8" sdnum="1033;0;0"><font color="#000000">42</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="42658.576" sdnum="1033;0;0"><font color="#000000">42,659</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="5.64" sdnum="1033;0;0.0"><font color="#000000">5.6</font></td>
+	</tr>
+	<tr>
+		<th style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="18" align="left" valign=bottom><font color="#000000">Brazil</font></th>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="514849" sdnum="1033;0;0"><font color="#000000">514,849</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="29314" sdnum="1033;0;0"><font color="#000000">29314</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="2422.142" sdnum="1033;0;0"><font color="#000000">2422</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="137.91" sdnum="1033;0;0"><font color="#000000">138</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="212559409" sdnum="1033;0;0"><font color="#000000">212,559,409</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="25.04" sdnum="1033;0;0"><font color="#000000">25</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="33.5" sdnum="1033;0;0"><font color="#000000">34</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="14103.452" sdnum="1033;0;0"><font color="#000000">14,103</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="2.2" sdnum="1033;0;0.0"><font color="#000000">2.2</font></td>
+	</tr>
+	<tr>
+		<th style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="18" align="left" valign=bottom><font color="#000000">Canada</font></th>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="90936" sdnum="1033;0;0"><font color="#000000">90,936</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="7295" sdnum="1033;0;0"><font color="#000000">7295</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="2409.401" sdnum="1033;0;0"><font color="#000000">2409</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="193.285" sdnum="1033;0;0"><font color="#000000">193</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="37742157" sdnum="1033;0;0"><font color="#000000">37,742,157</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="4.037" sdnum="1033;0;0"><font color="#000000">4</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="41.4" sdnum="1033;0;0"><font color="#000000">41</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="44017.591" sdnum="1033;0;0"><font color="#000000">44,018</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="2.5" sdnum="1033;0;0.0"><font color="#000000">2.5</font></td>
+	</tr>
+	<tr>
+		<th style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="18" align="left" valign=bottom><font color="#000000">Chile</font></th>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="99688" sdnum="1033;0;0"><font color="#000000">99,688</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="1054" sdnum="1033;0;0"><font color="#000000">1054</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="5214.841" sdnum="1033;0;0"><font color="#000000">5215</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="55.136" sdnum="1033;0;0"><font color="#000000">55</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="19116209" sdnum="1033;0;0"><font color="#000000">19,116,209</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="24.282" sdnum="1033;0;0"><font color="#000000">24</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="35.4" sdnum="1033;0;0"><font color="#000000">35</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="22767.037" sdnum="1033;0;0"><font color="#000000">22,767</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="2.11" sdnum="1033;0;0.0"><font color="#000000">2.1</font></td>
+	</tr>
+	<tr>
+		<th style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="18" align="left" valign=bottom><font color="#000000">China</font></th>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="84147" sdnum="1033;0;0"><font color="#000000">84,147</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="4638" sdnum="1033;0;0"><font color="#000000">4638</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="58.463" sdnum="1033;0;0"><font color="#000000">58</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="3.222" sdnum="1033;0;0"><font color="#000000">3</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="1439323774" sdnum="1033;0;0"><font color="#000000">1439,323,774</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="147.674" sdnum="1033;0;0"><font color="#000000">148</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="38.7" sdnum="1033;0;0"><font color="#000000">39</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="15308.712" sdnum="1033;0;0"><font color="#000000">15309</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="4.34" sdnum="1033;0;0.0"><font color="#000000">4.3</font></td>
+	</tr>
+	<tr>
+		<th style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="18" align="left" valign=bottom><font color="#000000">Colombia</font></th>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="29383" sdnum="1033;0;0"><font color="#000000">29,383</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="939" sdnum="1033;0;0"><font color="#000000">939</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="577.463" sdnum="1033;0;0"><font color="#000000">577</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="18.454" sdnum="1033;0;0"><font color="#000000">18</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="50882884" sdnum="1033;0;0"><font color="#000000">50,882,884</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="44.223" sdnum="1033;0;0"><font color="#000000">44</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="32.2" sdnum="1033;0;0"><font color="#000000">32</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="13254.949" sdnum="1033;0;0"><font color="#000000">13,255</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="1.71" sdnum="1033;0;0.0"><font color="#000000">1.7</font></td>
+	</tr>
+	<tr>
+		<th style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="18" align="left" valign=bottom><font color="#000000">Ecuador</font></th>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="39098" sdnum="1033;0;0"><font color="#000000">39,098</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="3358" sdnum="1033;0;0"><font color="#000000">3358</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="2216.055" sdnum="1033;0;0"><font color="#000000">2216</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="190.33" sdnum="1033;0;0"><font color="#000000">190</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="17643060" sdnum="1033;0;0"><font color="#000000">17,643,060</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="66.939" sdnum="1033;0;0"><font color="#000000">67</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="28.1" sdnum="1033;0;0"><font color="#000000">28</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="10581.936" sdnum="1033;0;0"><font color="#000000">10,582</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="1.5" sdnum="1033;0;0.0"><font color="#000000">1.5</font></td>
+	</tr>
+	<tr>
+		<th style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="18" align="left" valign=bottom><font color="#000000">Egypt</font></th>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="24985" sdnum="1033;0;0"><font color="#000000">24,985</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="959" sdnum="1033;0;0"><font color="#000000">959</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="244.151" sdnum="1033;0;0"><font color="#000000">244</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="9.371" sdnum="1033;0;0"><font color="#000000">9</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="102334403" sdnum="1033;0;0"><font color="#000000">102,334,403</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="97.999" sdnum="1033;0;0"><font color="#000000">98</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="25.3" sdnum="1033;0;0"><font color="#000000">25</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="10550.206" sdnum="1033;0;0"><font color="#000000">10,550</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="1.6" sdnum="1033;0;0.0"><font color="#000000">1.6</font></td>
+	</tr>
+	<tr>
+		<th style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="18" align="left" valign=bottom><font color="#000000">France</font></th>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="151753" sdnum="1033;0;0"><font color="#000000">151,753</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="28802" sdnum="1033;0;0"><font color="#000000">28802</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="2324.879" sdnum="1033;0;0"><font color="#000000">2325</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="441.251" sdnum="1033;0;0"><font color="#000000">441</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="65273512" sdnum="1033;0;0"><font color="#000000">65,273,512</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="122.578" sdnum="1033;0;0"><font color="#000000">123</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="42" sdnum="1033;0;0"><font color="#000000">42</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="38605.671" sdnum="1033;0;0"><font color="#000000">38,606</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="5.98" sdnum="1033;0;0.0"><font color="#000000">6.0</font></td>
+	</tr>
+	<tr>
+		<th style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="18" align="left" valign=bottom><font color="#000000">Germany</font></th>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="181815" sdnum="1033;0;0"><font color="#000000">181,815</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="8511" sdnum="1033;0;0"><font color="#000000">8511</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="2170.046" sdnum="1033;0;0"><font color="#000000">2170</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="101.583" sdnum="1033;0;0"><font color="#000000">102</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="83783945" sdnum="1033;0;0"><font color="#000000">83,783,945</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="237.016" sdnum="1033;0;0"><font color="#000000">237</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="46.6" sdnum="1033;0;0"><font color="#000000">47</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="45229.245" sdnum="1033;0;0"><font color="#000000">45,229</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="8" sdnum="1033;0;0.0"><font color="#000000">8.0</font></td>
+	</tr>
+	<tr>
+		<th style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="18" align="left" valign=bottom><font color="#000000">India</font></th>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="190535" sdnum="1033;0;0"><font color="#000000">190,535</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="5394" sdnum="1033;0;0"><font color="#000000">5394</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="138.068" sdnum="1033;0;0"><font color="#000000">138</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="3.909" sdnum="1033;0;0"><font color="#000000">4</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="1380004385" sdnum="1033;0;0"><font color="#000000">1,380,004,385</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="450.419" sdnum="1033;0;0"><font color="#000000">450</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="28.2" sdnum="1033;0;0"><font color="#000000">28</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="6426.674" sdnum="1033;0;0"><font color="#000000">6,427</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="0.53" sdnum="1033;0;0.0"><font color="#000000">0.5</font></td>
+	</tr>
+	<tr>
+		<th style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="18" align="left" valign=bottom><font color="#000000">Indonesia</font></th>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="26473" sdnum="1033;0;0"><font color="#000000">26,473</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="1613" sdnum="1033;0;0"><font color="#000000">1613</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="96.785" sdnum="1033;0;0"><font color="#000000">97</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="5.897" sdnum="1033;0;0"><font color="#000000">6</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="273523621" sdnum="1033;0;0"><font color="#000000">273,523,621</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="145.725" sdnum="1033;0;0"><font color="#000000">146</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="29.3" sdnum="1033;0;0"><font color="#000000">29</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="11188.744" sdnum="1033;0;0"><font color="#000000">11,189</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="1.04" sdnum="1033;0;0.0"><font color="#000000">1.0</font></td>
+	</tr>
+	<tr>
+		<th style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="18" align="left" valign=bottom><font color="#000000">Iran</font></th>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="151466" sdnum="1033;0;0"><font color="#000000">151,466</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="7797" sdnum="1033;0;0"><font color="#000000">7797</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="1803.318" sdnum="1033;0;0"><font color="#000000">1803</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="92.829" sdnum="1033;0;0"><font color="#000000">93</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="83992953" sdnum="1033;0;0"><font color="#000000">83,992,953</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="49.831" sdnum="1033;0;0"><font color="#000000">50</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="32.4" sdnum="1033;0;0"><font color="#000000">32</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="19082.62" sdnum="1033;0;0"><font color="#000000">19,083</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="1.5" sdnum="1033;0;0.0"><font color="#000000">1.5</font></td>
+	</tr>
+	<tr>
+		<th style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="18" align="left" valign=bottom><font color="#000000">Ireland</font></th>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="24990" sdnum="1033;0;0"><font color="#000000">24,990</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="1652" sdnum="1033;0;0"><font color="#000000">1652</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="5060.962" sdnum="1033;0;0"><font color="#000000">5061</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="334.562" sdnum="1033;0;0"><font color="#000000">335</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="4937796" sdnum="1033;0;0"><font color="#000000">4,937,796</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="69.874" sdnum="1033;0;0"><font color="#000000">70</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="38.7" sdnum="1033;0;0"><font color="#000000">39</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="67335.293" sdnum="1033;0;0"><font color="#000000">67,335</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="2.96" sdnum="1033;0;0.0"><font color="#000000">3.0</font></td>
+	</tr>
+	<tr>
+		<th style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="18" align="left" valign=bottom><font color="#000000">Italy</font></th>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="233019" sdnum="1033;0;0"><font color="#000000">233,019</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="33415" sdnum="1033;0;0"><font color="#000000">33415</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="3853.985" sdnum="1033;0;0"><font color="#000000">3854</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="552.663" sdnum="1033;0;0"><font color="#000000">553</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="60461828" sdnum="1033;0;0"><font color="#000000">60,461,828</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="205.859" sdnum="1033;0;0"><font color="#000000">206</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="47.9" sdnum="1033;0;0"><font color="#000000">48</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="35220.084" sdnum="1033;0;0"><font color="#000000">35,220</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="3.18" sdnum="1033;0;0.0"><font color="#000000">3.2</font></td>
+	</tr>
+	<tr>
+		<th style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="18" align="left" valign=bottom><font color="#000000">Japan</font></th>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="16884" sdnum="1033;0;0"><font color="#000000">16,884</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="892" sdnum="1033;0;0"><font color="#000000">892</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="133.495" sdnum="1033;0;0"><font color="#000000">133</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="7.053" sdnum="1033;0;0"><font color="#000000">7</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="126476458" sdnum="1033;0;0"><font color="#000000">126,476,458</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="347.778" sdnum="1033;0;0"><font color="#000000">348</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="48.2" sdnum="1033;0;0"><font color="#000000">48</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="39002.223" sdnum="1033;0;0"><font color="#000000">39,002</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="13.05" sdnum="1033;0;0.0"><font color="#000000">13.1</font></td>
+	</tr>
+	<tr>
+		<th style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="18" align="left" valign=bottom><font color="#000000">Mexico</font></th>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="90664" sdnum="1033;0;0"><font color="#000000">90,664</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="9930" sdnum="1033;0;0"><font color="#000000">9930</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="703.188" sdnum="1033;0;0"><font color="#000000">703</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="77.017" sdnum="1033;0;0"><font color="#000000">77</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="128932753" sdnum="1033;0;0"><font color="#000000">128,932,753</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="66.444" sdnum="1033;0;0"><font color="#000000">66</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="29.3" sdnum="1033;0;0"><font color="#000000">29</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="17336.469" sdnum="1033;0;0"><font color="#000000">17,336</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="1.38" sdnum="1033;0;0.0"><font color="#000000">1.4</font></td>
+	</tr>
+	<tr>
+		<th style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="18" align="left" valign=bottom><font color="#000000">Netherlands</font></th>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="46442" sdnum="1033;0;0"><font color="#000000">46,442</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="5956" sdnum="1033;0;0"><font color="#000000">5956</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="2710.379" sdnum="1033;0;0"><font color="#000000">2710</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="347.595" sdnum="1033;0;0"><font color="#000000">348</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="17134873" sdnum="1033;0;0"><font color="#000000">17,134,873</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="508.544" sdnum="1033;0;0"><font color="#000000">509</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="43.2" sdnum="1033;0;0"><font color="#000000">43</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="48472.545" sdnum="1033;0;0"><font color="#000000">48,473</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="3.32" sdnum="1033;0;0.0"><font color="#000000">3.3</font></td>
+	</tr>
+	<tr>
+		<th style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="18" align="left" valign=bottom><font color="#000000">Pakistan</font></th>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="72460" sdnum="1033;0;0"><font color="#000000">72,460</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="1543" sdnum="1033;0;0"><font color="#000000">1543</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="328.033" sdnum="1033;0;0"><font color="#000000">328</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="6.985" sdnum="1033;0;0"><font color="#000000">7</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="220892331" sdnum="1033;0;0"><font color="#000000">220,892,331</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="255.573" sdnum="1033;0;0"><font color="#000000">256</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="23.5" sdnum="1033;0;0"><font color="#000000">24</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="5034.708" sdnum="1033;0;0"><font color="#000000">5,035</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="0.6" sdnum="1033;0;0.0"><font color="#000000">0.6</font></td>
+	</tr>
+	<tr>
+		<th style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="18" align="left" valign=bottom><font color="#000000">Peru</font></th>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="164476" sdnum="1033;0;0"><font color="#000000">164,476</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="4506" sdnum="1033;0;0"><font color="#000000">4506</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="4988.377" sdnum="1033;0;0"><font color="#000000">4988</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="136.662" sdnum="1033;0;0"><font color="#000000">137</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="32971846" sdnum="1033;0;0"><font color="#000000">32,971,846</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="25.129" sdnum="1033;0;0"><font color="#000000">25</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="29.1" sdnum="1033;0;0"><font color="#000000">29</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="12236.706" sdnum="1033;0;0"><font color="#000000">12,237</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="1.6" sdnum="1033;0;0.0"><font color="#000000">1.6</font></td>
+	</tr>
+	<tr>
+		<th style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="18" align="left" valign=bottom><font color="#000000">Philippines</font></th>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="18086" sdnum="1033;0;0"><font color="#000000">18,086</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="957" sdnum="1033;0;0"><font color="#000000">957</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="165.047" sdnum="1033;0;0"><font color="#000000">165</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="8.733" sdnum="1033;0;0"><font color="#000000">9</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="109581085" sdnum="1033;0;0"><font color="#000000">109,581,085</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="351.873" sdnum="1033;0;0"><font color="#000000">352</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="25.2" sdnum="1033;0;0"><font color="#000000">25</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="7599.188" sdnum="1033;0;0"><font color="#000000">7,599</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="1" sdnum="1033;0;0.0"><font color="#000000">1.0</font></td>
+	</tr>
+	<tr>
+		<th style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="18" align="left" valign=bottom><font color="#000000">Poland</font></th>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="23786" sdnum="1033;0;0"><font color="#000000">23,786</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="1064" sdnum="1033;0;0"><font color="#000000">1064</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="628.484" sdnum="1033;0;0"><font color="#000000">628</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="28.113" sdnum="1033;0;0"><font color="#000000">28</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="37846605" sdnum="1033;0;0"><font color="#000000">37,846,605</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="124.027" sdnum="1033;0;0"><font color="#000000">124</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="41.8" sdnum="1033;0;0"><font color="#000000">42</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="27216.445" sdnum="1033;0;0"><font color="#000000">27,216</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="6.62" sdnum="1033;0;0.0"><font color="#000000">6.6</font></td>
+	</tr>
+	<tr>
+		<th style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="18" align="left" valign=bottom><font color="#000000">Portugal</font></th>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="32500" sdnum="1033;0;0"><font color="#000000">32,500</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="1410" sdnum="1033;0;0"><font color="#000000">1410</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="3187.304" sdnum="1033;0;0"><font color="#000000">3187</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="138.28" sdnum="1033;0;0"><font color="#000000">138</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="10196707" sdnum="1033;0;0"><font color="#000000">10,196,707</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="112.371" sdnum="1033;0;0"><font color="#000000">112</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="46.2" sdnum="1033;0;0"><font color="#000000">46</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="27936.896" sdnum="1033;0;0"><font color="#000000">27,937</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="3.39" sdnum="1033;0;0.0"><font color="#000000">3.4</font></td>
+	</tr>
+	<tr>
+		<th style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="18" align="left" valign=bottom><font color="#000000">Romania</font></th>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="19257" sdnum="1033;0;0"><font color="#000000">19,257</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="1262" sdnum="1033;0;0"><font color="#000000">1262</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="1001.004" sdnum="1033;0;0"><font color="#000000">1001</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="65.6" sdnum="1033;0;0"><font color="#000000">66</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="19237682" sdnum="1033;0;0"><font color="#000000">19,237,682</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="85.129" sdnum="1033;0;0"><font color="#000000">85</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="43" sdnum="1033;0;0"><font color="#000000">43</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="23313.199" sdnum="1033;0;0"><font color="#000000">23,313</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="6.892" sdnum="1033;0;0.0"><font color="#000000">6.9</font></td>
+	</tr>
+	<tr>
+		<th style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="18" align="left" valign=bottom><font color="#000000">Russia</font></th>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="405843" sdnum="1033;0;0"><font color="#000000">405,843</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="4693" sdnum="1033;0;0"><font color="#000000">4693</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="2780.995" sdnum="1033;0;0"><font color="#000000">2781</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="32.158" sdnum="1033;0;0"><font color="#000000">32</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="145934460" sdnum="1033;0;0"><font color="#000000">145,934,460</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="8.823" sdnum="1033;0;0"><font color="#000000">9</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="39.6" sdnum="1033;0;0"><font color="#000000">40</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="24765.954" sdnum="1033;0;0"><font color="#000000">24,766</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="8.05" sdnum="1033;0;0.0"><font color="#000000">8.1</font></td>
+	</tr>
+	<tr>
+		<th style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="18" align="left" valign=bottom><font color="#000000">South Africa</font></th>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="32683" sdnum="1033;0;0"><font color="#000000">32,683</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="683" sdnum="1033;0;0"><font color="#000000">683</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="551.066" sdnum="1033;0;0"><font color="#000000">551</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="11.516" sdnum="1033;0;0"><font color="#000000">12</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="59308690" sdnum="1033;0;0"><font color="#000000">59,308,690</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="46.754" sdnum="1033;0;0"><font color="#000000">47</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="27.3" sdnum="1033;0;0"><font color="#000000">27</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="12294.876" sdnum="1033;0;0"><font color="#000000">12,295</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="2.32" sdnum="1033;0;0.0"><font color="#000000">2.3</font></td>
+	</tr>
+	<tr>
+		<th style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="18" align="left" valign=bottom><font color="#000000">Spain</font></th>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="239429" sdnum="1033;0;0"><font color="#000000">239,429</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="27127" sdnum="1033;0;0"><font color="#000000">27127</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="5120.952" sdnum="1033;0;0"><font color="#000000">5121</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="580.197" sdnum="1033;0;0"><font color="#000000">580</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="46754783" sdnum="1033;0;0"><font color="#000000">46,754,783</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="93.105" sdnum="1033;0;0"><font color="#000000">93</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="45.5" sdnum="1033;0;0"><font color="#000000">46</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="34272.36" sdnum="1033;0;0"><font color="#000000">34,272</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="2.97" sdnum="1033;0;0.0"><font color="#000000">3.0</font></td>
+	</tr>
+	<tr>
+		<th style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="18" align="left" valign=bottom><font color="#000000">Sweden</font></th>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="37542" sdnum="1033;0;0"><font color="#000000">37,542</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="4395" sdnum="1033;0;0"><font color="#000000">4395</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="3717.298" sdnum="1033;0;0"><font color="#000000">3717</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="435.18" sdnum="1033;0;0"><font color="#000000">435</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="10099270" sdnum="1033;0;0"><font color="#000000">10,099,270</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="24.718" sdnum="1033;0;0"><font color="#000000">25</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="41" sdnum="1033;0;0"><font color="#000000">41</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="46949.283" sdnum="1033;0;0"><font color="#000000">46,949</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="2.22" sdnum="1033;0;0.0"><font color="#000000">2.2</font></td>
+	</tr>
+	<tr>
+		<th style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="18" align="left" valign=bottom><font color="#000000">Switzerland</font></th>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="30779" sdnum="1033;0;0"><font color="#000000">30,779</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="1656" sdnum="1033;0;0"><font color="#000000">1656</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="3556.367" sdnum="1033;0;0"><font color="#000000">3556</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="191.343" sdnum="1033;0;0"><font color="#000000">191</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="8654618" sdnum="1033;0;0"><font color="#000000">8,654,618</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="214.243" sdnum="1033;0;0"><font color="#000000">214</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="43.1" sdnum="1033;0;0"><font color="#000000">43</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="57410.166" sdnum="1033;0;0"><font color="#000000">57,410</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="4.53" sdnum="1033;0;0.0"><font color="#000000">4.5</font></td>
+	</tr>
+	<tr>
+		<th style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="18" align="left" valign=bottom><font color="#000000">Turkey</font></th>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="163942" sdnum="1033;0;0"><font color="#000000">163,942</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="4540" sdnum="1033;0;0"><font color="#000000">4540</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="1943.844" sdnum="1033;0;0"><font color="#000000">1944</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="53.83" sdnum="1033;0;0"><font color="#000000">54</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="84339067" sdnum="1033;0;0"><font color="#000000">84,339,067</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="104.914" sdnum="1033;0;0"><font color="#000000">105</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="31.6" sdnum="1033;0;0"><font color="#000000">32</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="25129.341" sdnum="1033;0;0"><font color="#000000">25,129</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="2.81" sdnum="1033;0;0.0"><font color="#000000">2.8</font></td>
+	</tr>
+	<tr>
+		<th style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="18" align="left" valign=bottom><font color="#000000">Ukraine</font></th>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="23672" sdnum="1033;0;0"><font color="#000000">23,672</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="708" sdnum="1033;0;0"><font color="#000000">708</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="541.275" sdnum="1033;0;0"><font color="#000000">541</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="16.189" sdnum="1033;0;0"><font color="#000000">16</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="43733759" sdnum="1033;0;0"><font color="#000000">43,733,759</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="77.39" sdnum="1033;0;0"><font color="#000000">77</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="41.4" sdnum="1033;0;0"><font color="#000000">41</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="7894.393" sdnum="1033;0;0"><font color="#000000">7,894</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="8.8" sdnum="1033;0;0.0"><font color="#000000">8.8</font></td>
+	</tr>
+	<tr>
+		<th style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="18" align="left" valign=bottom><font color="#000000">United Kingdom</font></th>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="274762" sdnum="1033;0;0"><font color="#000000">274,762</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="38489" sdnum="1033;0;0"><font color="#000000">38489</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="4047.403" sdnum="1033;0;0"><font color="#000000">4047</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="566.965" sdnum="1033;0;0"><font color="#000000">567</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="67886004" sdnum="1033;0;0"><font color="#000000">67,886,004</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="272.898" sdnum="1033;0;0"><font color="#000000">273</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="40.8" sdnum="1033;0;0"><font color="#000000">41</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="39753.244" sdnum="1033;0;0"><font color="#000000">39,753</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="2.54" sdnum="1033;0;0.0"><font color="#000000">2.5</font></td>
+	</tr>
+	<tr>
+		<th style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="18" align="left" valign=bottom><font color="#000000">United States</font></th>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="1790191" sdnum="1033;0;0"><font color="#000000">1,790,191</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="104383" sdnum="1033;0;0"><font color="#000000">104383</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="5408.389" sdnum="1033;0;0"><font color="#000000">5408</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="315.354" sdnum="1033;0;0"><font color="#000000">315</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="331002647" sdnum="1033;0;0"><font color="#000000">331,002,647</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="35.608" sdnum="1033;0;0"><font color="#000000">36</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="38.3" sdnum="1033;0;0"><font color="#000000">38</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="54225.446" sdnum="1033;0;0"><font color="#000000">54,225</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" class="data" align="right"  valign=bottom sdval="2.77" sdnum="1033;0;0.0"><font color="#000000">2.8</font></td>
+	</tr>
+</tbody>
+</table>
+<!-- ************************************************************************** -->
+</body>
+
+</html>
